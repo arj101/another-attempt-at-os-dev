@@ -1,0 +1,8 @@
+#pragma once
+
+#define GDT__CODESEG_OFFSET 8
+#define GDT__DATASEG_OFFSET 16
+
+
+#define PCI_CONFIG_ADDRESS_PORT 0xCF8
+#define PCI_CONFIG_DATA_PORT 0xCFC
